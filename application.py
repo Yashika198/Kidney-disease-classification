@@ -11,9 +11,9 @@ class ClientApp:
 
 obj = ClientApp()
 
-st.title('Kindney Disease :health_worker: Classification Using Deep Learning')
+st.title('Kidney Disease :health_worker: Classification Using Deep Learning')
 st.divider()
-st.subheader("Upload your image of kidney ct-scan to cheack for any disease")
+st.subheader("Upload your image of kidney ct-scan to check for any disease")
 
 uploaded_file = st.file_uploader("Choose a file", type=['jpg','png','jpeg'])
 if uploaded_file is not None:
